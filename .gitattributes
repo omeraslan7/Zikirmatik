@@ -1,1 +1,11 @@
+# C++ ve C ile ilgili dosyaları analiz dışı bırak
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.c linguist-detectable=false
+
+# CMake dosyalarını analiz dışı bırak
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+
+# Dart dosyalarını proje dili olarak tanımla
 *.dart linguist-language=Dart
